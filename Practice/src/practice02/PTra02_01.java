@@ -10,13 +10,17 @@ public class PTra02_01 {
 	public static void main(String[] args) {
 
 		// ★ 20を5で割った値を出力してください
-
-
+		int sum;
+		sum = 20/5;
+		System.out.println(sum);
 		// ★ 126に13を掛けた値を出力してください
-
-
+		int Sum; 
+		Sum = 126*13;
+		System.out.println(Sum);
 		// ★ 97を6で割ったときの余りを出力してください
-
-
+		int SUM;
+        SUM = 97%6;
+        System.out.println(SUM);
+        
 	}
 }

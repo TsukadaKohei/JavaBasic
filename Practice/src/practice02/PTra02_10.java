@@ -22,5 +22,11 @@ public class PTra02_10 {
 		 * ※ プログラムは何行書いても良いです
 		 */
 
+
+		double sum = (coffee *1.08) * 2 + (snack * 1.08);
+		int intSum = (int)sum;
+
+		System.out.println(intSum);
+
 	}
 }
