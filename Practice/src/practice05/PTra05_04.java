@@ -23,16 +23,63 @@ public class PTra05_04 {
 		 */
 
 		// ①
-		System.out.println("0～6の整数を入力してください");
 
-		String line = scanner.nextLine();
 
+
+		boolean isContinue = true;
+
+		while(isContinue) {
+
+			System.out.println("0～6の整数を入力してください");
+
+			String line = scanner.nextLine();
 		switch(line) {
 			case "0":
 				System.out.println("日曜");
+				isContinue = false;
+				System.out.println("プログラムを終了します");
 				break;
 			case "1":
 				System.out.println("月曜");
+				isContinue = false;
+				System.out.println("プログラムを終了します");
+				break;
+			case "2":
+				System.out.println("火曜");
+				isContinue = false;
+				System.out.println("プログラムを終了します");
+				break;
+			case "3":
+				System.out.println("水曜");
+				isContinue = false;
+				System.out.println("プログラムを終了します");
+				break;
+
+
+			case "4":
+				System.out.println("木曜");
+				isContinue = false;
+				System.out.println("プログラムを終了します");
+				break;
+
+			case "5":
+				System.out.println("金曜");
+				isContinue = false;
+				System.out.println("プログラムを終了します");
+				break;
+
+			case "6":
+				System.out.println("土曜");
+				isContinue = false;
+				System.out.println("プログラムを終了します");
+				break;
+
+
+			default:
+				isContinue  = true;
+		}
+
+
 		}
 	}
 }
