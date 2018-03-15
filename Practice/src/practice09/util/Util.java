@@ -18,7 +18,9 @@ import java.util.List;
  * @author Rhizome
  *
  */
+
 public class Util {
+	
 	private Util() {
 		/* インスタンス化を禁止するため、private化 */
 	}
