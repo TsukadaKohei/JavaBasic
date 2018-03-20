@@ -8,7 +8,7 @@ package practice15.common;
 
 import java.util.Date;
 
-public class Room {
+public class Room  {
 	/** 教室名 */
 	private String className;
 	/** 担当講師 */
