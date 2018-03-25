@@ -6,7 +6,14 @@
  */
 package practice17.ptra17;
 
+import java.io.IOException;
+
 import practice17.common.ThrowExceptionUtil;
+
+
+
+
+
 
 public class PTra17_02 {
 	public static void main(String[] args) {
@@ -17,7 +24,7 @@ public class PTra17_02 {
 		}
 	}
 
-	public static void dispInput() {
+	public static void dispInput()throws IOException{
 
 		System.out.println("文字を入力してください");
 
@@ -25,8 +32,10 @@ public class PTra17_02 {
 		 * 以下の処理はコンパイルエラーになります。
 		 * ★ 適切な修正を行い、コンパイルエラーをなくしてください
 		 */
+		
+		
 		String line = ThrowExceptionUtil.inputValue();
-
-		System.out.println(line);
+		
+		
 	}
 }
